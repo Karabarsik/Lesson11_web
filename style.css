@@ -1,17 +1,17 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Jost', sans-serif;
 }
 
-body{
+body {
     min-height: 100vh;
     background: linear-gradient(to bottom left, #f0358b, #31279f);
 }
 
-.app{
-    background:linear-gradient(to bottom left, #ffffff, #1605d4);
+.app {
+    background: linear-gradient(to bottom left, #ffffff, #1605d4);
     width: 90%;
     max-width: 600px;
     margin: 100px auto 0;
@@ -20,11 +20,11 @@ body{
 
 }
 
-.app h1{
-    font-weight:25px;
+.app h1 {
+    font-weight: 25px;
     color: white;
     font-weight: 600;
-    border-bottom: solid 2px ;
+    border-bottom: solid 2px;
     padding-bottom: 30px;
 
 }
@@ -33,13 +33,13 @@ body{
     padding: 20px 0;
 }
 
-.quiz h2{
+.quiz h2 {
     font-size: 18px;
     color: white;
     font-weight: 600;
 }
 
-.btn{
+.btn {
     background: white;
     font-weight: 500;
     color: blue;
@@ -54,33 +54,32 @@ body{
 
 }
 
-.btn:hover:not([disabled]){
+.btn:hover:not([disabled]) {
     background: linear-gradient(to bottom left, #f0358b, #31279f);
 }
 
-.btn:disabled{
+.btn:disabled {
     cursor: no-drop;
 }
 
-#next-btn{
+#next-btn {
     background: linear-gradient(to bottom left, #f0358b, #31279f);
     color: white;
     font-weight: 500;
     width: 150px;
-    border: 0
-    padding: 10px;
+    border: 0 padding: 10px;
     margin: 20px auto 0;
     border-radius: 4px;
     cursor: pointer;
-    display:none;
+    display: none;
 
 }
 
 
-.correct{
-    background: green;
+.correct {
+    background: #3bff00;
 }
 
-.incorrect{
-    background: red;
+.incorrect {
+    background: #ff0000;
 }
